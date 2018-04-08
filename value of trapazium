@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+main()
+{
+	float a,b,h,t;
+	printf("the value of trapazium is %f:",t);
+	scanf("%f",&t);
+	a=15;
+	b=10;
+	h=10;
+	t=((a+b)/2*h);
+	printf("the value of trapazium is %f",a,b,h);
+	getch();
+}
